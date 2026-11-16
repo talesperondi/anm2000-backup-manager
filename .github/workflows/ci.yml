@@ -36,4 +36,5 @@ jobs:
       - name: Testes unitários
         env:
           ANM2000BM_DATA: ${{ runner.temp }}\anm_ci_data
-        run: python -m unittest discover -s tests -v
+        shell: cmd
+        run: python -m unittest discover -s tests -v 2>&1
