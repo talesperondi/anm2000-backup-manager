@@ -99,7 +99,7 @@ python main.py autostart remove
 Para rodar a partir do código-fonte:
 
 ```powershell
-git clone https://github.com/<usuario>/anm2000-backup-manager.git
+git clone https://github.com/talesperondi/anm2000-backup-manager.git
 cd anm2000-backup-manager
 py -3.13 -m venv .venv
 .\.venv\Scripts\activate
