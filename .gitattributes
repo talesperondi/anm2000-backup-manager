@@ -1,0 +1,7 @@
+# Normaliza finais de linha e evita diffs binários desnecessários
+* text=auto
+
+*.ico binary
+*.png binary
+*.exe binary
+*.dll binary
